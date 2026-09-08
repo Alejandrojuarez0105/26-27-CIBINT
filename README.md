@@ -45,5 +45,5 @@ Cada estudiante modificará únicamente su carpeta personal. La nomenclatura y e
 
 ## Profesor
 
-**Héctor Lázaro Arrechea Elissalt**  
+**Hector Lazaro Arrechea Elissalt**  
 [hector.arrechea@uneatlantico.es](mailto:hector.arrechea@uneatlantico.es)
