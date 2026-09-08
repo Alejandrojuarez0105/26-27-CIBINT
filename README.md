@@ -18,7 +18,7 @@ Aquí se publican la planificación, la evaluación, las normas y las instruccio
 
 ## Entregas mediante GitHub
 
-Cuando se publique una actividad, las entregas que puedan ser públicas se prepararán en un *fork* del repositorio y se propondrán mediante un *pull request*.
+Las entregas publicables se preparan en un *fork* del repositorio y se proponen mediante un *pull request*.
 
 ```text
 entregas/
@@ -41,7 +41,7 @@ Cada estudiante modificará únicamente su carpeta personal. La nomenclatura y e
 | Campus Virtual | Calificaciones, plazos oficiales y material no publicable |
 | Correo o tutoría | Situaciones personales o consultas que requieran privacidad |
 
-> **Antes de investigar:** disponer de acceso público a un dato no autoriza cualquier forma de recopilación, correlación o difusión. En caso de duda, detener el trabajo y consultar al profesor.
+> **Antes de investigar:** disponer de acceso público a un dato no autoriza cualquier forma de recopilación, correlación o difusión. En caso de duda, se debe detener el trabajo y utilizar un canal privado de la asignatura.
 
 ## Profesor
 

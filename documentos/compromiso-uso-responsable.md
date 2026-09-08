@@ -1,6 +1,6 @@
 # Compromiso de uso responsable
 
-Este documento se firmará cuando se presente el trabajo individual. No debe subirse firmado a un repositorio público; la copia firmada se entregará por el canal privado que indique el profesor.
+La copia firmada se entrega exclusivamente mediante el canal privado indicado. No debe subirse a un repositorio público.
 
 ## Datos
 
@@ -27,7 +27,7 @@ Declaro que he leído y comprendido las [normas de la asignatura](../NORMAS.md) 
 10. diferenciar hechos, inferencias, supuestos y lagunas de información;
 11. no difundir resultados o evidencias fuera de los canales autorizados;
 12. respetar el régimen de uso de inteligencia artificial indicado en cada actividad;
-13. detener el trabajo y consultar al profesor ante cualquier duda legal, ética u operativa;
+13. detener el trabajo y utilizar un canal privado de la asignatura ante cualquier duda legal, ética u operativa;
 14. comunicar de inmediato y por un canal privado cualquier exposición accidental de información sensible.
 
 Comprendo que disponer de acceso público a una información no autoriza cualquier tratamiento o difusión y que el incumplimiento de estas condiciones puede afectar a la evaluación y dar lugar a la aplicación de la normativa académica.

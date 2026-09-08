@@ -15,13 +15,13 @@ Debe estar claro:
 - qué técnicas pueden utilizarse;
 - qué información no debe recogerse;
 - dónde se guardará y entregará el resultado;
-- cuándo debe detenerse el trabajo y consultar al profesor.
+- cuándo debe detenerse el trabajo y utilizar un canal privado de la asignatura.
 
 No se inicia una recogida sistemática sobre un caso que requiera aprobación hasta haberla recibido.
 
 ## Acciones permitidas
 
-Dentro del alcance fijado por el profesor, se podrá:
+Dentro del alcance autorizado en cada enunciado, se podrá:
 
 - consultar información corporativa publicada de forma abierta;
 - utilizar buscadores, archivos y registros públicos;
@@ -58,7 +58,7 @@ La lista no pretende anticipar todas las situaciones. Una técnica no mencionada
 - No almacenar copias de filtraciones ni contenidos obtenidos de forma dudosa.
 - Distinguir la referencia a una exposición de la posesión del dato expuesto.
 - Utilizar el Campus Virtual cuando el enunciado indique que la entrega no puede ser pública.
-- Avisar al profesor sin redistribuir el contenido si aparece un secreto, credencial o dato sensible inesperado.
+- Avisar mediante un canal privado, sin redistribuir el contenido, si aparece un secreto, credencial o dato sensible inesperado.
 
 ## Repositorio público y Campus Virtual
 
@@ -70,7 +70,7 @@ La lista no pretende anticipar todas las situaciones. Una técnica no mencionada
 | Datos personales o evidencias no publicables | Campus Virtual |
 | Calificaciones y situaciones individuales | Campus Virtual, correo o tutoría |
 
-Que una actividad se trabaje en el repositorio no autoriza a publicar información que infrinja estas normas. En caso de conflicto, se entrega por el canal privado indicado por el profesor.
+Que una actividad se trabaje en el repositorio no autoriza a publicar información que infrinja estas normas. En caso de conflicto, se utiliza el canal privado indicado en el enunciado.
 
 ## Rigor del análisis
 
@@ -97,7 +97,7 @@ Toda entrega debe:
 
 - Las preguntas de interés común se publican en Discussions, no como cambios al repositorio.
 - Los comentarios deben centrarse en el trabajo y proponer mejoras concretas.
-- No se modifican ni comentan entregas ajenas salvo en una revisión indicada por el profesor.
+- No se modifican ni comentan entregas ajenas salvo en una revisión prevista en el enunciado.
 - No se incluyen datos personales en títulos, debates o comentarios.
 - Un *pull request* no debe modificar archivos fuera de la carpeta del estudiante.
 
@@ -106,7 +106,7 @@ Toda entrega debe:
 1. Detener la recogida o publicación.
 2. No copiar, descargar ni reenviar el contenido dudoso.
 3. Registrar de forma mínima qué ocurrió, sin reproducir el dato sensible.
-4. Informar al profesor por un canal privado.
+4. Informar por un canal privado de la asignatura.
 5. Continuar solo cuando se confirme un alcance seguro.
 
 El incumplimiento se gestionará conforme al enunciado, la guía docente y la normativa académica aplicable.

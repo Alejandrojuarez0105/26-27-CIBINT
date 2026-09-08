@@ -28,7 +28,7 @@ La prueba extraordinaria recupera el **50 % correspondiente a la evaluación fin
 
 ## Actividades e informe individual
 
-Cada enunciado indicará el producto solicitado, el plazo, el canal de entrega, los criterios de valoración y las condiciones de publicación. El informe individual de inteligencia se presentará más adelante con un alcance previamente autorizado.
+Cada enunciado especifica el producto solicitado, el plazo, el canal de entrega, los criterios de valoración y las condiciones de publicación. El informe individual de inteligencia es un trabajo personal, trazable y sujeto a un alcance previamente autorizado.
 
 ## Uso de inteligencia artificial
 
