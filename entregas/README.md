@@ -48,9 +48,7 @@ El nombre de la actividad debe coincidir exactamente con el código de su enunci
 |---|---|
 | `entregas/apellidoNombre/**` | Sí, dentro de su propia carpeta |
 | `entregas/otraPersona/**` | No |
-| `actividades/**` | No |
-| `sesiones/**` | No |
-| Archivos generales del repositorio | No |
+| Cualquier otra ruta del repositorio | No |
 
 Un *pull request* que contenga cambios fuera de la carpeta personal deberá corregirse antes de su revisión.
 
@@ -86,5 +84,3 @@ No se suben:
 4. Comprobar todos los archivos y datos antes de publicar.
 5. Abrir el *pull request* con el título solicitado.
 6. Mantener la misma rama si se piden correcciones.
-
-Los comandos y ejemplos están en [CONTRIBUTING.md](../CONTRIBUTING.md).
