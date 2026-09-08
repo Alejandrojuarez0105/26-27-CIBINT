@@ -1,0 +1,33 @@
+title: "[General] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Utiliza esta categoría para conversaciones relacionadas con la asignatura que no sean una pregunta concreta, una propuesta o una muestra de trabajo.
+  - type: dropdown
+    id: tema
+    attributes:
+      label: Tema
+      options:
+        - Organización del curso
+        - Contenidos
+        - Actividades
+        - GitHub y entregas
+        - Recursos
+        - Otro asunto de interés común
+    validations:
+      required: true
+  - type: textarea
+    id: mensaje
+    attributes:
+      label: Mensaje
+      description: Aporta el contexto necesario para que el grupo pueda seguir la conversación.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacidad
+    attributes:
+      label: Antes de publicar
+      options:
+        - label: He comprobado que el mensaje no contiene datos personales ni información que deba tratarse por un canal privado.
+          required: true

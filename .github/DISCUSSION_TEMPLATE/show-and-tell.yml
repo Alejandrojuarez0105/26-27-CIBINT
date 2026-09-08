@@ -1,0 +1,30 @@
+title: "[Compartir] "
+body:
+  - type: input
+    id: titulo
+    attributes:
+      label: Recurso o trabajo
+      placeholder: "¿Qué quieres compartir?"
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Explica cómo se relaciona con la asignatura y qué puede aprender el grupo.
+    validations:
+      required: true
+  - type: textarea
+    id: enlace
+    attributes:
+      label: Enlace o referencia
+      description: Utiliza fuentes legítimas y no compartas material sujeto a restricciones.
+    validations:
+      required: true
+  - type: checkboxes
+    id: publicacion
+    attributes:
+      label: Antes de publicar
+      options:
+        - label: El contenido puede compartirse públicamente y he atribuido su procedencia.
+          required: true

@@ -1,0 +1,28 @@
+title: "[Idea] "
+body:
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: Describe el recurso, dinámica o mejora que propones.
+    validations:
+      required: true
+  - type: textarea
+    id: utilidad
+    attributes:
+      label: Utilidad para la asignatura
+      description: Explica qué necesidad cubre y a quién podría ayudar.
+    validations:
+      required: true
+  - type: textarea
+    id: referencia
+    attributes:
+      label: Referencias o ejemplo
+      description: Añade enlaces si son necesarios y comprueba su procedencia.
+  - type: checkboxes
+    id: revision
+    attributes:
+      label: Comprobación
+      options:
+        - label: He revisado que no exista ya una propuesta equivalente.
+          required: true

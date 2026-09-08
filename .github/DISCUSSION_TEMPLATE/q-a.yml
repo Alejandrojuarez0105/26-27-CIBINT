@@ -1,0 +1,34 @@
+title: "[Pregunta] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Formula aquí dudas cuya respuesta pueda ser útil para otras personas del grupo. Para situaciones personales, utiliza el correo o la tutoría.
+  - type: input
+    id: contexto
+    attributes:
+      label: Actividad o tema relacionado
+      placeholder: "Ejemplo: A01, ciclo de inteligencia o flujo de entrega"
+    validations:
+      required: true
+  - type: textarea
+    id: pregunta
+    attributes:
+      label: Pregunta
+      description: Explica qué necesitas aclarar y dónde aparece la dificultad.
+    validations:
+      required: true
+  - type: textarea
+    id: intentos
+    attributes:
+      label: Qué has revisado o intentado
+      description: Incluye enlaces a la documentación relevante o pasos reproducibles, sin publicar datos sensibles.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacidad
+    attributes:
+      label: Antes de publicar
+      options:
+        - label: La pregunta no contiene una calificación, situación personal ni información no publicable.
+          required: true
