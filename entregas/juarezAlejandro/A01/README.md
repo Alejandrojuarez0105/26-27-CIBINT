@@ -1,19 +1,9 @@
 # A01 · Del dato a la inteligencia
 
-> **Cómo usas esta plantilla**
->
-> Cópiala a `entregas/apellidoNombre/A01/README.md` y trabaja **sobre esa copia, dentro de tu carpeta**. No edites este archivo ni la carpeta de nadie más.
->
-> Rellena los apartados sin cambiar su orden ni su numeración. Si algo no te aplica, explica por qué en lugar de borrarlo. Borra estas instrucciones antes de entregar.
->
-> Recuerda: debes acompañar cada afirmación con el identificador del que sale — `(C05)`, `(C07, C08)`, `(F01)`. Resuelves los pasos 1 a 4 solo con la cronología inicial.
->
-> Enunciado completo: [A01 · Del dato a la inteligencia](../../../actividades/A01-del-dato-a-la-inteligencia/README.md)
-
 ## Estudiante
 
-- Nombre:
-- Carpeta personal:
+- Nombre: Alejandro Emmanuel Juárez Hernández
+- Carpeta personal: [juarezAlejandro](/entregas/juarezAlejandro/)
 
 ---
 
