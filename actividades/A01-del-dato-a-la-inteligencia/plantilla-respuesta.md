@@ -55,7 +55,7 @@
 
 ### 2.2 Componentes completados
 
-<!-- Contenido de los componentes que faltaban o que estaban demasiado vagos. -->
+<!-- Contenido de los componentes que faltaban o que estaban sin concretar. -->
 
 ### 2.3 Requerimiento en una frase
 
