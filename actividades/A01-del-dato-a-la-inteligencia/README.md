@@ -30,13 +30,40 @@ Tienes comité **a las 13:00** y debes llegar con una recomendación. Estas son 
 |---|---|
 | [cronologia-inicial.csv](datos/cronologia-inicial.csv) | `C01`–`C14`. Hechos públicos **hasta el 20 de julio**, cuando te llega la petición |
 | [cronologia-posterior.csv](datos/cronologia-posterior.csv) | `C15`–`C25`. Hechos públicos **publicados después** |
+| [superficies-plataforma.csv](datos/superficies-plataforma.csv) | `S01`–`S10`. Qué partes tiene la plataforma, quién gestiona cada una y qué filas de la cronología inicial la mencionan |
 | [fuentes.csv](datos/fuentes.csv) | `F01`–`F12`. Las fuentes de donde sale cada hecho |
 
-Campos de las cronologías: `id`, `fecha`, `fuente_ref` (enlaza con `fuentes.csv`), `tipo` (`declaracion_oficial`, `cobertura`, `antecedente`) y `contenido`.
+**Campos de las cronologías**
+
+| Campo | Qué contiene |
+|---|---|
+| `id` | Identificador del hecho, `C01`–`C25` |
+| `fecha` | Fecha de publicación o de ocurrencia declarada |
+| `actor` | Quién lo afirma o de quién trata |
+| `tipo` | `declaracion_oficial`, `cobertura`, `antecedente` o `cronologia` |
+| `contenido` | El hecho, sin interpretación añadida |
+| `fuente_ref` | Enlaza con `fuentes.csv` |
+| `corroboracion` | `una_parte` si lo afirma solo una de las organizaciones implicadas · `prensa` si lo publica un medio sin aportar verificación propia · `dos_partes` si lo afirman las dos |
+
+**Campos de las superficies**
+
+| Campo | Qué contiene |
+|---|---|
+| `superficie_id` | Identificador, `S01`–`S10` |
+| `elemento` | Parte de la plataforma |
+| `descripcion` | Qué es |
+| `gestionada_por` | `plataforma`, `usuario` o `compartida`: quién decide sobre ella |
+| `mencion_en_cronologia_inicial` | Filas `C…` que hablan de esa parte |
 
 **Puedes ampliar las fuentes.** Si encuentras otra fuente pública útil, añádela con su URL y su fecha de consulta y cítala como `F13`, `F14`… Tus fuentes cuentan igual que las dadas, siempre que respeten los límites de la actividad.
 
-> Ojo: una declaración oficial dice lo que **la organización afirma**, no lo que se ha verificado de forma independiente. Y una fuente terciaria (`F09`) te sirve para orientarte, no para sostener un hecho.
+> Tres avisos antes de empezar.
+>
+> Una declaración oficial dice lo que **la organización afirma**, no lo que se ha verificado de forma independiente. Por eso existe la columna `corroboracion`: míratela antes de decidir tu nivel de confianza.
+>
+> Que un medio repita una declaración **no la corrobora**.
+>
+> Una fuente terciaria (`F09`) te sirve para orientarte, no para sostener un hecho.
 
 ## La fecha importa
 
@@ -46,7 +73,7 @@ Si respondes una pregunta fechada con información que todavía no existía, no 
 
 ## Cómo referenciar
 
-Debes acompañar cada afirmación que hagas con el identificador del que sale, entre paréntesis: `(C05)`, `(C07, C08)`, `(F01)`. Sin identificador, tu afirmación no cuenta.
+Debes acompañar cada afirmación que hagas con el identificador del que sale, entre paréntesis: `(C05)`, `(C07, C08)`, `(S06)`, `(F01)`. Sin identificador, tu afirmación no cuenta.
 
 ---
 
@@ -62,7 +89,7 @@ Debes acompañar cada afirmación que hagas con el identificador del que sale, e
 | **D** | «Como no hay evidencia de manipulación de los artefactos públicos, los modelos que ya hemos descargado son seguros.» |
 | **E** | «Es probable que el riesgo inmediato esté en nuestras credenciales de la plataforma y no en los modelos ya descargados; conviene rotarlas antes del comité y mantener las descargas bajo observación.» |
 
-**1.2.** Formula ahora un dato, una información y una inteligencia propios a partir de la cronología inicial. Tu **información** debe combinar al menos dos filas. Tu **inteligencia** debe servirte para elegir entre las opciones del comité.
+**1.2.** Formula ahora un dato, una información y una inteligencia propios a partir del material. Tu **información** debe combinar al menos dos filas **de archivos distintos** (por ejemplo, una superficie y un hecho de la cronología). Tu **inteligencia** debe servirte para elegir entre las opciones del comité.
 
 | Capa | Formulación | Filas usadas | Qué limitación tiene |
 |---|---|---|---|
@@ -209,10 +236,10 @@ Todo es publicable: el material es público. Si aun así tu entrega contuviera a
 
 | Criterio | Peso | Excelente | Notable | Suficiente | Insuficiente |
 |---|---:|---|---|---|---|
-| **C1 · Dato, información e inteligencia**<br>Paso 1 | 2,5 | **2,2 – 2,5** · Clasifica bien las cinco frases, incluida la que no es ninguna, y da el motivo exacto. Formula tres piezas originales: la información combina de verdad dos filas y la inteligencia apunta a una opción concreta del comité con su limitación. | **1,6 – 2,1** · Hasta dos clasificaciones discutibles pero razonadas; las formulaciones son correctas aunque la inteligencia se quede en resumen. | **1,0 – 1,5** · Distingue las tres capas pero falla en los casos límite, o la información no combina dos filas. | **0,0 – 0,9** · Clasifica sin justificar, confunde inteligencia con opinión, o copia las frases dadas. |
+| **C1 · Dato, información e inteligencia**<br>Paso 1 | 2,5 | **2,2 – 2,5** · Clasifica bien las cinco frases, incluida la que no es ninguna, y da el motivo exacto. Formula tres piezas originales: la información cruza de verdad dos archivos distintos y la inteligencia apunta a una opción concreta del comité con su limitación. | **1,6 – 2,1** · Hasta dos clasificaciones discutibles pero razonadas; las formulaciones son correctas aunque la inteligencia se quede en resumen o la información cruce dos filas del mismo archivo. | **1,0 – 1,5** · Distingue las tres capas pero falla en los casos límite, o la información no combina dos filas. | **0,0 – 0,9** · Clasifica sin justificar, confunde inteligencia con opinión, o copia las frases dadas. |
 | **C2 · Requerimiento y preguntas**<br>Paso 2 | 2,5 | **2,2 – 2,5** · Detecta exactamente qué componentes faltan en la petición y distingue los que están pero vagos de los que no están. Los completa con contenido propio del caso y con exclusiones que descartan algo que alguien intentaría de verdad. El requerimiento cabe en una frase con objeto, decisión, límite y plazo. Las preguntas se responden con evidencia y están priorizadas por utilidad para decidir. | **1,6 – 2,1** · Identifica bien las ausencias principales; el requerimiento es correcto y las preguntas útiles, con alguna cercana a una consulta de búsqueda o exclusiones genéricas. | **1,0 – 1,5** · Confunde algún componente presente con ausente; el requerimiento deja alcance o plazo abiertos; las preguntas son temas, no preguntas. | **0,0 – 0,9** · No revisa la petición, la reformula sin acotarla, o las preguntas son consultas a buscadores. |
 | **C3 · Ciclo de inteligencia**<br>Paso 3 | 1,5 | **1,3 – 1,5** · Encadena de verdad: la salida de una fase es la entrada de la siguiente, todo referido a este caso y compatible con las 13:00. En «Siguiente fase» marca al menos un retorno a una fase anterior, justificado por la salida de esa fila. | **0,9 – 1,2** · Aplica las fases al caso con una cadena coherente, pero no marca retorno o lo justifica flojo. | **0,6 – 0,8** · Las fases son correctas pero intercambiables con cualquier otro caso, y las entradas y salidas no se relacionan entre sí. | **0,0 – 0,5** · Copia la definición de las fases, omite alguna o deja columnas sin contenido. |
-| **C4 · Valoración y rigor**<br>Paso 4 | 2,0 | **1,8 – 2,0** · Justifica el nivel de confianza en vez de enunciarlo, recomienda de forma proporcionada a la evidencia, dice qué deja fuera y nombra una limitación concreta con su efecto. Etiqueta bien las tres afirmaciones como hecho, inferencia o supuesto. | **1,3 – 1,7** · Recomienda razonablemente pero justifica la confianza por encima, o etiqueta bien solo dos de las tres afirmaciones. | **0,8 – 1,2** · La medida es aceptable, pero la confianza es decorativa o la limitación es genérica. | **0,0 – 0,7** · Afirma o descarta la afectación sin sustento, recomienda algo desproporcionado, o confunde hecho con inferencia. |
+| **C4 · Valoración y rigor**<br>Paso 4 | 2,0 | **1,8 – 2,0** · Justifica el nivel de confianza en vez de enunciarlo, y lo apoya en quién sostiene cada hecho (`corroboracion`). Recomienda de forma proporcionada a la evidencia, dice qué deja fuera y nombra una limitación concreta con su efecto. Etiqueta bien las tres afirmaciones como hecho, inferencia o supuesto. | **1,3 – 1,7** · Recomienda razonablemente pero justifica la confianza por encima, o etiqueta bien solo dos de las tres afirmaciones. | **0,8 – 1,2** · La medida es aceptable, pero la confianza es decorativa o la limitación es genérica. | **0,0 – 0,7** · Afirma o descarta la afectación sin sustento, recomienda algo desproporcionado, o confunde hecho con inferencia. |
 | **C5 · Revisión**<br>Paso 5 | 1,0 | **0,9 – 1,0** · Las tres revisiones son honestas, incluye una conclusión propia corregida sin maquillarla, y ancla cada una en un hecho identificado de la cronología posterior. Distingue lo que cambia de lo que no. | **0,6 – 0,8** · Revisa correctamente pero en corto: confirma casi todo y corrige poco. | **0,3 – 0,5** · Resume la cronología posterior sin volver sobre las conclusiones propias. | **0,0 – 0,2** · No revisa nada, o reescribe la valoración fingiendo que ya decía eso. |
 | **C6 · Trazabilidad**<br>Toda la entrega | 0,5 | **0,5** · Todas las afirmaciones llevan identificador y el identificador dice lo que se le atribuye. Las fuentes añadidas van con URL y fecha de consulta. | **0,3 – 0,4** · Referencia casi todo, con alguna afirmación suelta o alguna fuente sin fecha. | **0,2** · Referencia de forma irregular. | **0,0 – 0,1** · No referencia, o los identificadores no corresponden con lo que dicen. |
 | | **10** | | | | |

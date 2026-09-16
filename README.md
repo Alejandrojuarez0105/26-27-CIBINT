@@ -40,9 +40,10 @@ Cada estudiante modificará únicamente su carpeta personal. La nomenclatura y e
 | Discussions | Avisos, preguntas generales, ideas y puesta en común |
 | Pull requests | Entregas y comentarios sobre cambios concretos |
 | Campus Virtual | Calificaciones, plazos oficiales y material privado |
+| [Canal privado en GitHub](SECURITY.md) | Exposición accidental de datos, dudas sobre los límites de una práctica e incidentes durante una actividad |
 | Correo o tutoría | Situaciones personales o consultas que requieran privacidad |
 
-> **Antes de investigar:** disponer de acceso público a un dato no autoriza cualquier forma de recopilación, correlación o difusión. En caso de duda, se debe detener el trabajo y utilizar un canal privado de la asignatura.
+> **Antes de investigar:** disponer de acceso público a un dato no autoriza cualquier forma de recopilación, correlación o difusión. En caso de duda, se debe detener el trabajo y utilizar el [canal privado de la asignatura](SECURITY.md).
 
 ## Profesor
 

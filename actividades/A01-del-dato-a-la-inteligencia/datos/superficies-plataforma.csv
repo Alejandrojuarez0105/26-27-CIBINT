@@ -1,0 +1,11 @@
+superficie_id,elemento,descripcion,gestionada_por,mencion_en_cronologia_inicial
+S01,Modelos publicos,Archivos de pesos que cualquiera puede descargar del repositorio publico,plataforma,C07
+S02,Conjuntos de datos publicos,Corpus y conjuntos publicados que cualquiera puede descargar,plataforma,C07
+S03,Procesamiento de conjuntos de datos,Servicio que lee transforma y previsualiza un conjunto de datos subido a la plataforma,plataforma,C05
+S04,Espacios de demostracion,Aplicaciones que usuarios y organizaciones alojan en la plataforma con sus propios secretos de configuracion,compartida,C01 C07
+S05,Credenciales de usuario y de organizacion,Tokens que una persona u organizacion crea para autenticarse contra la plataforma,usuario,C01 C02
+S06,Credenciales internas de servicio,Credenciales que los servicios de la plataforma utilizan entre si y contra su nube,plataforma,C04 C06 C11
+S07,Conjuntos de datos internos,Datos propios de la plataforma que no son accesibles al publico,plataforma,C04
+S08,Bibliotecas cliente y paquetes,Software que se instala para descargar y cargar artefactos de la plataforma,plataforma,C08
+S09,Imagenes de contenedor,Imagenes que la plataforma distribuye para ejecutar sus servicios,plataforma,C08
+S10,Infraestructura de produccion,Nodos y clusteres donde se ejecutan los servicios de la plataforma,plataforma,C03 C06 C11

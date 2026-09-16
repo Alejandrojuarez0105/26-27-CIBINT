@@ -1,15 +1,15 @@
-id,fecha,fuente_ref,tipo,contenido
-C01,2024-05-31,F07,antecedente,Hugging Face comunico un acceso no autorizado a su servicio de espacios publicos que afecto a secretos de configuracion (tokens y claves de API) de usuarios y organizaciones
-C02,2024-06,F08,antecedente,Tras aquel incidente Hugging Face retiro los tokens de organizacion incorporo un servicio de gestion de claves para los secretos de los espacios y mejoro la deteccion e invalidacion de tokens filtrados
-C03,2026-07-16,F01,declaracion_oficial,Hugging Face publica una comunicacion de incidente: ha detectado y respondido a un acceso no autorizado a su infraestructura de produccion
-C04,2026-07-16,F01,declaracion_oficial,El acceso alcanzo un conjunto limitado de conjuntos de datos internos y varias credenciales utilizadas por sus servicios
-C05,2026-07-16,F01,declaracion_oficial,El acceso inicial se produjo mediante un conjunto de datos malicioso que exploto dos vias de ejecucion de codigo: un cargador con codigo remoto y una inyeccion de plantillas en la configuracion del conjunto de datos
-C06,2026-07-16,F01,declaracion_oficial,La actividad escalo hasta acceso a nivel de nodo recoleccion de credenciales de nube y de cluster y movimiento lateral por varios clusteres internos a lo largo de un fin de semana
-C07,2026-07-16,F01,declaracion_oficial,No se ha encontrado evidencia de manipulacion de los modelos conjuntos de datos o espacios publicos de Hugging Face
-C08,2026-07-16,F01,declaracion_oficial,La cadena de suministro de software (imagenes de contenedor y paquetes) se ha verificado como no comprometida
-C09,2026-07-16,F01,declaracion_oficial,La evaluacion sobre si se vieron afectados datos de socios o clientes continua abierta en el momento de la publicacion
-C10,2026-07-16,F01,declaracion_oficial,La campana se describe como un marco de agentes autonomos que ejecuto miles de acciones individuales a traves de un enjambre de entornos aislados de vida corta con mando y control migrante
-C11,2026-07-16,F01,declaracion_oficial,Medidas aplicadas: cierre de las vias de ejecucion de codigo erradicacion del punto de apoyo y reconstruccion de los nodos comprometidos revocacion y rotacion de las credenciales y tokens afectados controles de admision mas estrictos y mejora de la deteccion
-C12,2026-07-16,F01,declaracion_oficial,El incidente se ha puesto en conocimiento de las autoridades
-C13,2026-07-16,F01,declaracion_oficial,No se identifica al responsable y el modelo de lenguaje concreto que operaba el marco de agentes no se conoce
-C14,2026-07-17,F05,cobertura,La prensa especializada recoge la comunicacion sin aportar atribucion ni ampliar el alcance declarado
+id,fecha,actor,tipo,contenido,fuente_ref,corroboracion
+C01,2024-05-31,Hugging Face,antecedente,Hugging Face comunico un acceso no autorizado a su servicio de espacios publicos que afecto a secretos de configuracion (tokens y claves de API) de usuarios y organizaciones,F07,una_parte
+C02,2024-06,Hugging Face,antecedente,Tras aquel incidente Hugging Face retiro los tokens de organizacion incorporo un servicio de gestion de claves para los secretos de los espacios y mejoro la deteccion e invalidacion de tokens filtrados,F08,una_parte
+C03,2026-07-16,Hugging Face,declaracion_oficial,Hugging Face publica una comunicacion de incidente: ha detectado y respondido a un acceso no autorizado a su infraestructura de produccion,F01,una_parte
+C04,2026-07-16,Hugging Face,declaracion_oficial,El acceso alcanzo un conjunto limitado de conjuntos de datos internos y varias credenciales utilizadas por sus servicios,F01,una_parte
+C05,2026-07-16,Hugging Face,declaracion_oficial,El acceso inicial se produjo mediante un conjunto de datos malicioso que exploto dos vias de ejecucion de codigo: un cargador con codigo remoto y una inyeccion de plantillas en la configuracion del conjunto de datos,F01,una_parte
+C06,2026-07-16,Hugging Face,declaracion_oficial,La actividad escalo hasta acceso a nivel de nodo recoleccion de credenciales de nube y de cluster y movimiento lateral por varios clusteres internos a lo largo de un fin de semana,F01,una_parte
+C07,2026-07-16,Hugging Face,declaracion_oficial,No se ha encontrado evidencia de manipulacion de los modelos conjuntos de datos o espacios publicos de Hugging Face,F01,una_parte
+C08,2026-07-16,Hugging Face,declaracion_oficial,La cadena de suministro de software (imagenes de contenedor y paquetes) se ha verificado como no comprometida,F01,una_parte
+C09,2026-07-16,Hugging Face,declaracion_oficial,La evaluacion sobre si se vieron afectados datos de socios o clientes continua abierta en el momento de la publicacion,F01,una_parte
+C10,2026-07-16,Hugging Face,declaracion_oficial,La campana se describe como un marco de agentes autonomos que ejecuto muchos miles de acciones individuales a traves de un enjambre de entornos aislados de vida corta con mando y control migrante,F01,una_parte
+C11,2026-07-16,Hugging Face,declaracion_oficial,Medidas aplicadas: cierre de las vias de ejecucion de codigo erradicacion del punto de apoyo y reconstruccion de los nodos comprometidos revocacion y rotacion de las credenciales y tokens afectados controles de admision mas estrictos y mejora de la deteccion,F01,una_parte
+C12,2026-07-16,Hugging Face,declaracion_oficial,El incidente se ha puesto en conocimiento de las autoridades,F01,una_parte
+C13,2026-07-16,Hugging Face,declaracion_oficial,No se identifica al responsable y el modelo de lenguaje concreto que operaba el marco de agentes no se conoce,F01,una_parte
+C14,2026-07-17,Prensa especializada,cobertura,La prensa recoge la comunicacion sin aportar atribucion ni ampliar el alcance declarado,F05,prensa
