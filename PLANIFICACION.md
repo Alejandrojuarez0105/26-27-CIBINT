@@ -12,12 +12,12 @@
 | Semana | Sesión | Fecha | Contenido |
 |---:|---:|---|---|
 | 1 | 1 | Mié. 9 sep. | 🟦 Presentación de la asignatura. Fundamentos de ciberinteligencia |
-| 2 | 2 | Lun. 14 sep. | 🟦 Ciclo de inteligencia |
+| 2 | 2 | Lun. 14 sep. | 🟦 Requerimientos, preguntas de inteligencia y Ciclo de inteligencia |
 | 2 | 3 | Mié. 16 sep. | 🟨 Aplicación del ciclo de inteligencia |
 | 3 | 4 | Lun. 21 sep. | 🟦 Tipos de inteligencia y rol del analista |
-| 3 | 5 | Mié. 23 sep. | 🟩 Requerimientos y preguntas de inteligencia |
-| 4 | 6 | Lun. 28 sep. | 🟦 Marco legal de la investigación |
-| 4 | 7 | Mié. 30 sep. | 🟨 Ética, seguridad operacional e identidad de investigación |
+| 3 | 5 | Mié. 23 sep. | 🟦 Marco legal de la investigación |
+| 4 | 6 | Lun. 28 sep. | 🟦 Ética, seguridad operacional |
+| 4 | 7 | Mié. 30 sep. | 🟨 Gestión de identidad de investigación y riesgos personales |
 | 5 | 8 | Lun. 5 oct. | 🟩 Taller de seguridad operacional y trazabilidad |
 | 5 | 9 | Mié. 7 oct. | 🟦 Fundamentos de OSINT y *footprinting* |
 | 6 | 10 | Lun. 12 oct. | Festivo · sin clase |
