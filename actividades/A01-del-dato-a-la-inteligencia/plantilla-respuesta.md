@@ -168,8 +168,6 @@
 - [ ] He trabajado sobre una copia de la plantilla, dentro de `entregas/apellidoNombre/A01/`.
 - [ ] He resuelto los pasos 1 a 4 solo con la cronología inicial.
 - [ ] Cada afirmación lleva su identificador y he comprobado que dice lo que le atribuyo.
-- [ ] He justificado mi nivel de confianza, no solo enunciado.
-- [ ] Mi recomendación es defensiva, reversible y proporcionada.
 - [ ] No he interactuado con ninguna infraestructura ni servicio del caso.
 - [ ] No incluyo exploits, credenciales, indicadores operativos ni datos personales.
 - [ ] He incluido el apartado de uso de inteligencia artificial con los tres puntos.

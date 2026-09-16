@@ -1,10 +1,10 @@
 # A01 · Del dato a la inteligencia
 
-Actividad individual evaluable del Tema 1. La resuelves en cinco pasos encadenados sobre un caso real: cada paso utiliza el resultado del anterior.
+Actividad individual evaluable del Tema 1. Se resuelve en cinco pasos encadenados sobre un caso real: cada paso utiliza el resultado del anterior.
 
 ## La situación
 
-Trabajas en el equipo de ciberinteligencia de una empresa que incorpora a uno de sus servicios modelos de pesos abiertos descargados de **Hugging Face**.
+Trabajas en el equipo de ciberinteligencia de una empresa que incorpora en uno de sus servicios, modelos de pesos abiertos descargados de **Hugging Face**.
 
 El **16 de julio de 2026** Hugging Face publica una comunicación de incidente de seguridad. El **lunes 20 de julio a las 09:00**, tu responsable te escribe:
 
@@ -149,7 +149,7 @@ Rellena una fila por fase. **Entrada** es con qué llegas a la fase, **salida** 
 
 **4.1.** Escribe la nota para el comité. Breve y con estas cuatro cosas:
 
-1. qué puedes afirmar el 20 de julio sobre si os afecta;
+1. qué puedes afirmar el 20 de julio sobre si les afecta;
 2. tu **nivel de confianza** (baja, media o alta) y **por qué es esa**;
 3. qué opciones recomiendas activar y cuáles no, y por qué tu medida es proporcionada;
 4. una **limitación**: qué te falta saber y cómo condiciona lo anterior.
