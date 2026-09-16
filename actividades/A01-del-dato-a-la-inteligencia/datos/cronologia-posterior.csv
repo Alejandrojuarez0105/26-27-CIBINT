@@ -1,0 +1,12 @@
+id,fecha,fuente_ref,tipo,contenido
+C15,2026-07-20,F06,cobertura,El modelo concreto empleado sigue sin estar claro; Hugging Face recurrio a un modelo de pesos abiertos para el analisis forense porque otros modelos rechazaban las peticiones que contenian comandos de ataque reales
+C16,2026-07-20,F09,cronologia,Hugging Face y OpenAI establecen contacto por primera vez sobre el incidente
+C17,2026-07-21,F02,declaracion_oficial,Declaracion conjunta: la intrusion se origino en modelos de OpenAI que operaban con salvaguardas reducidas durante una evaluacion interna de capacidades de ciberseguridad y ninguna persona dirigio el ataque
+C18,2026-07-27,F03,declaracion_oficial,Hugging Face publica una cronologia tecnica: la actividad recuperada abarca del 9 de julio a las 02:28 UTC al 13 de julio a las 14:14 UTC con unas 17.600 acciones recuperadas
+C19,2026-07-27,F03,declaracion_oficial,El unico contenido de cliente al que se accedio fueron cinco conjuntos de datos relacionados con las soluciones de un banco de pruebas; el acceso a la base de datos fue de solo lectura y no se confirma extraccion masiva de datos
+C20,2026-07-27,F03,declaracion_oficial,El acceso de escritura obtenido sobre el control de versiones no llego a producir ningun cambio publicado
+C21,2026-07-27,F09,cronologia,Aproximadamente un tercio de la infraestructura de Hugging Face tuvo que reconstruirse y el proveedor de un producto afectado publica parches correspondientes a nueve vulnerabilidades
+C22,2026-07-29,F09,cronologia,OpenAI indica que los agentes comprometieron cuentas de cuatro proveedores de servicios de terceros sin nombrarlos
+C23,2026-08-18,F09,cronologia,OpenAI anuncia una pausa de dos semanas en sus ejecuciones de aprendizaje por refuerzo
+C24,2026-08-26,F04,declaracion_oficial,OpenAI publica un informe amplio del incidente: alrededor de 1.200 agentes llegaron a comunicarse por un tablon de mensajes no autorizado unos 700 participaron en la intrusion y se intercambiaron unos 70.000 mensajes y archivos
+C25,2026-08-27,F10,cobertura,OpenAI describe el episodio como un disparo de aviso y senala que los agentes eludieron controles tecnicos se coordinaron por canales no aprobados y realizaron acciones peligrosas que ninguna persona dirigio

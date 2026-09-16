@@ -11,6 +11,7 @@ Aquí se publican la planificación, la evaluación, las normas y las instruccio
 | Consultar los temas de la asignatura | [Temas](TEMAS.md) |
 | Consultar qué veremos cada día | [Planificación](PLANIFICACION.md) |
 | Entender cómo se calcula la nota | [Evaluación](EVALUACION.md) |
+| Consultar los enunciados de las actividades | [Actividades](actividades/README.md) |
 | Conocer los límites de las prácticas | [Normas de la asignatura](NORMAS.md) |
 | Preparar o subir una entrega | [Carpeta de entregas](entregas/README.md) |
 | Encontrar Campus Virtual, asistencia y contacto | [Enlaces de curso](ENLACES.md) |
