@@ -88,29 +88,42 @@
 
 **Qué puedes afirmar el 20 de julio**
 
-<!-- Con sus identificadores. -->
+- El 16 de julio de 2026, Hugging Face declaró públicamente haber detectado y respondido a un acceso no autorizado a su infraestructura de producción (C03).
+- Según su propia declaración, el acceso alcanzó un conjunto limitado de datasets internos y varias credenciales usadas por sus servicios (C04) — concretamente credenciales internas de servicio (S06), no credenciales de usuario u organización (S05) (C04, C06, C11).
+- El vector de entrada fue el procesamiento de un conjunto de datos malicioso, que explotó dos vías de ejecución de código (C05; S03).
+- La actividad escaló a nivel de nodo, con recolección de credenciales de nube/clúster y movimiento lateral por varios clústeres internos durante un fin de semana (C06; S10).
+- Hugging Face no encontró evidencia de manipulación de modelos, datasets o espacios públicos (C07; S01, S02, S04), y declara verificada como no comprometida su cadena de suministro de software — imágenes de contenedor y paquetes — (C08; S08, S09).
+- La evaluación sobre si se vieron afectados datos de socios o clientes sigue **abierta** en el momento de la publicación (C09).
+- No se ha identificado al responsable ni se conoce el modelo que operó el ataque (C13).
+- Todo lo anterior proviene de una única parte — la propia Hugging Face — sin verificación independiente (`corroboracion: una_parte` en C01–C13); la cobertura de prensa (C14) repite la declaración sin aportar verificación propia.
 
 **Nivel de confianza y justificación**
 
-<!-- Baja, media o alta, y qué la sostiene en ese nivel y no en otro. -->
+**Media.** La declaración de Hugging Face es detallada, internamente coherente (fechas, vector de entrada, alcance técnico concreto) y proviene de la organización directamente afectada, que tiene incentivos regulatorios y reputacionales para ser precisa en lo que reconoce. Pero sigue siendo la versión de una sola parte (`una_parte` en toda la cronología, salvo C14 que solo repite sin corroborar), no hay verificación independiente todavía, y la propia Hugging Face deja explícitamente abierta la incógnita sobre terceros (C09). Eso impide una confianza alta; la ausencia de contradicciones o desmentidos impide bajarla de nivel.
 
 **Recomendación al comité**
 
 | Opción | ¿La activas? | Por qué, y por qué es proporcionada |
 |---|---|---|
-| | | |
+| O1 · Seguir descargando con normalidad | Sí, con vigilancia | HF declara sin evidencia de manipulación en artefactos públicos y con la cadena de software verificada como no comprometida (C07, C08). Frenar del todo sería desproporcionado frente a esa evidencia; se combina con O4 y O7 en vez de aplicarse a ciegas. |
+| O2 · Congelar las descargas automatizadas | No | El vector de entrada declarado está en el procesamiento interno de datasets de la propia plataforma (C05; S03), no en los artefactos públicos que la empresa descarga. Congelar todo sin evidencia de riesgo en lo que consumimos sería una medida desproporcionada al dato disponible. |
+| O3 · Rotar las credenciales de la plataforma | Sí | Aunque HF solo confirma afectación de sus credenciales internas de servicio (S06), no de las nuestras (S05), es una medida barata, reversible y proporcionada dado el antecedente de 2024 de exposición de secretos (C01, C02). |
+| O4 · Verificar la integridad de los artefactos ya descargados | Sí | Es una comprobación propia, de bajo coste, que no depende de confiar ciegamente en la declaración de HF (C07, C08); refuerza la confianza media en vez de sustituirla. |
+| O5 · Revisar qué credenciales propias están publicadas fuera de la empresa | Sí | Buena práctica de higiene de credenciales que no depende de que se confirme afectación directa; reduce la superficie de exposición propia frente al patrón ya visto en 2024 (C01, C02). |
+| O6 · Avisar a los clientes del servicio | No, por ahora | La evaluación de HF sobre afectación a socios/clientes sigue abierta (C09) y no hay ninguna indicación de que nuestros artefactos o servicio estén comprometidos. Avisar ahora sería desproporcionado y podría generar alarma sin base; se revisa en el punto de seguimiento (O7). |
+| O7 · Mantener la observación y fijar un punto de revisión | Sí | Dado que C09 sigue abierta y no se identifica al responsable (C13), es la medida proporcionada mientras se espera más información pública, y conecta con la fase de Retroalimentación del paso 3. |
 
 **Limitación**
 
-<!-- Qué te falta saber y cómo condiciona lo anterior. -->
+No sabemos si la evaluación de Hugging Face sobre datos de socios y clientes (C09) nos incluye como usuarios de la plataforma, ni si nuestras propias credenciales de usuario/organización (S05) llegaron a estar expuestas — HF solo confirma afectación de sus credenciales internas de servicio (S06). Si esa pregunta se resolviera en sentido afirmativo, la recomendación de no activar O2 y O6 tendría que revisarse.
 
 ### 4.2 Hechos, inferencias y supuestos
 
 | Afirmación de tu nota | ¿Hecho, inferencia o supuesto? | Por qué |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| El acceso no autorizado a la infraestructura de producción de Hugging Face fue detectado y comunicado el 16 de julio de 2026. | Hecho | Es lo que la propia organización declaró públicamente, con fecha e identificador verificable (C03). |
+| El vector de entrada afectó a credenciales internas de servicio (S06) y no a credenciales de usuario u organización (S05). | Inferencia | Se deriva de que C04, C06 y C11 solo mencionan credenciales internas de servicio; ninguna fila de la cronología inicial menciona S05 como afectada, pero eso es un razonamiento por ausencia de mención, no una declaración explícita de que S05 esté a salvo. |
+| Nuestras propias credenciales frente a la plataforma podrían estar expuestas, por lo que conviene rotarlas. | Supuesto | Asumimos que la empresa usa credenciales propias contra HF (razonable, dado que descarga modelos) y que el patrón de exposición de 2024 (C01, C02) podría repetirse, pero ninguna fila de la cronología inicial confirma que las credenciales de esta empresa en particular estén comprometidas. |
 
 ---
 
