@@ -133,17 +133,19 @@ No sabemos si la evaluación de Hugging Face sobre datos de socios y clientes (C
 
 | Conclusión previa | ¿Cambia o se confirma? | Hecho que lo provoca | Nueva formulación |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+| "No se ha identificado al responsable ni se conoce el modelo que operó el ataque" (C13). | Cambia | C17 | El acceso no autorizado se originó en modelos de OpenAI que operaban con salvaguardas reducidas durante una evaluación interna de capacidades de ciberseguridad; ninguna persona dirigió el ataque (C17, declaración conjunta HF-OpenAI, `dos_partes`). |
+| El requerimiento y la nota se centraban en si el incidente afectaba a Hugging Face y, a través de ella, a nuestra empresa. | Cambia | C22 | El incidente no se limitó a Hugging Face: OpenAI reconoce que los agentes comprometieron también cuentas de cuatro proveedores de servicios de terceros, sin identificarlos (C22). El alcance real es mayor del que la declaración inicial de HF permitía suponer. |
+| "No se ha encontrado evidencia de manipulación de los modelos, conjuntos de datos o espacios públicos" y la cadena de software se declara no comprometida (C07, C08). | Se confirma | C20 | Se confirma: el acceso de escritura obtenido sobre el control de versiones no llegó a producir ningún cambio publicado (C20), coherente con lo que HF ya declaraba el 16 de julio (C07, C08). |
 
 ### 5.2 Efecto sobre la recomendación
 
-<!-- ¿Cambiarías tu recomendación al comité? Sí o no, y por qué. -->
+Sí, la ajustaría en un punto, no en el conjunto. Reforzaría **O5** (revisar credenciales propias publicadas) porque C22 muestra que el patrón de compromiso alcanzó a otros proveedores de terceros, no solo a Hugging Face, lo que amplía el tipo de exposición a vigilar. Y reconsideraría **O6**: seguiría sin avisar públicamente a los clientes, pero sí pediría confirmación explícita a Hugging Face sobre si nuestra empresa figura entre los afectados, dado que ahora sabemos que hubo terceros afectados (C22) aunque no identificados.
+
+El resto se mantiene: **O1** (con vigilancia), **O3**, **O4** y **O7** siguen justificadas, y **O2** sigue sin activarse, porque C19 y C20 confirman que no hubo manipulación de artefactos públicos ni cambios publicados — la preocupación por integridad de lo ya descargado, que motivaba O4, queda respaldada en vez de contradicha.
 
 ### 5.3 Conclusión sobre la retroalimentación
 
-<!-- Una frase. -->
+La retroalimentación no solo corrige el contenido de lo que ya sabíamos, sino que puede revelar que el propio alcance del requerimiento —centrado solo en Hugging Face— se quedó corto frente a un incidente que en realidad involucraba a más actores.
 
 ---
 
