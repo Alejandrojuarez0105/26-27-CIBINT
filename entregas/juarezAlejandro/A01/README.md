@@ -153,17 +153,29 @@ La retroalimentación no solo corrige el contenido de lo que ya sabíamos, sino 
 
 | Identificador | Fuente | URL | Fecha de consulta |
 |---|---|---|---|
-| F01 | | | AAAA-MM-DD |
+| F01 | Hugging Face, "Security incident disclosure — July 2026" | https://huggingface.co/blog/security-incident-july-2026 | 2026-09-17 |
+| F02 | OpenAI, "OpenAI and Hugging Face partner to address security incident during model evaluation" | https://openai.com/index/hugging-face-model-evaluation-security-incident/ | 2026-09-17 |
+| F03 | Hugging Face, "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident" | https://huggingface.co/blog/agent-intrusion-technical-timeline | 2026-09-17 |
+| F04 | OpenAI, "The Hugging Face incident and the road ahead" | https://openai.com/index/hugging-face-incident-and-the-road-ahead/ | 2026-09-17 |
+| F05 | TechRadar Pro, "Hugging Face reveals unauthorized access to AI model hosting platform" | https://www.techradar.com/pro/security/hugging-face-reveals-unauthorized-access-to-ai-model-hosting-platform | 2026-09-17 |
+| F06 | The Hacker News, "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent" | https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html | 2026-09-17 |
+| F07 | TechCrunch, "Hugging Face says it detected unauthorized access to its AI model hosting platform" | https://techcrunch.com/2024/05/31/hugging-face-says-it-detected-unauthorized-access-to-its-ai-model-hosting-platform | 2026-09-17 |
+| F08 | SecurityWeek, "Secrets Exposed in Hugging Face Hack" | https://www.securityweek.com/secrets-exposed-in-hugging-face-hack/ | 2026-09-17 |
+| F09 | Wikipedia, "2026 OpenAI agent cyberattacks" | https://en.wikipedia.org/wiki/2026_OpenAI_agent_cyberattacks | 2026-09-17 |
+| F10 | Cybersecurity Dive, "Hundreds of agents went rogue in lead up to Hugging Face breach" | https://www.cybersecuritydive.com/news/hundreds-agents-rogue-lead-up-hugging-face-breach/828963/ | 2026-09-17 |
 
-<!-- Solo las que hayas usado de verdad. Si añades fuentes propias, numéralas F13, F14… -->
+> No se usaron F11 ni F12 del material dado. No se añadió ninguna fuente propia (F13+): las candidatas investigadas para el paso 3 no pasaron el filtro temporal (ver "Investigación adicional" al final de este archivo).
 
 ## Decisiones y limitaciones
 
-<!-- Cualquier decisión de método o límite que quieras dejar por escrito. -->
+- Los pasos 1 a 4 se resolvieron exclusivamente con `cronologia-inicial.csv` (C01–C14); `cronologia-posterior.csv` (C15–C25) se abrió únicamente para el paso 5, como exige el enunciado.
+- Para el paso 3 se investigaron fuentes públicas adicionales que pudieran aportar ideas para la fase de Obtención. Ninguna resultó válida por estar fechada el 20 de julio de 2026 o después, o por tener contenido actualizado con posterioridad a esa fecha (detalle en la sección "Investigación adicional" al final de este archivo). Por eso no se incorporó ninguna fuente F13+.
+- Las tablas de la plantilla se mantuvieron con su estructura original (mismas filas y columnas); no se justificó añadir ninguna.
+- El nivel de confianza y las recomendaciones del paso 4 se apoyan únicamente en el campo `corroboracion` de cada hecho (quién lo afirma y con qué respaldo), evitando dar por hecho algo que solo una parte declara.
 
 ## Colaboración
 
-<!-- Si trabajaste algún aspecto con otra persona, indica qué parte fue individual. -->
+No se trabajó ningún aspecto con otra persona. Todo el análisis es individual, elaborado con apoyo de un asistente de inteligencia artificial (ver "Uso de inteligencia artificial").
 
 ## Uso de inteligencia artificial
 
@@ -171,9 +183,9 @@ La retroalimentación no solo corrige el contenido de lo que ya sabíamos, sino 
 
 | | |
 |---|---|
-| **Herramienta utilizada** | <!-- Nombre, o «No se ha utilizado ninguna» --> |
-| **Para qué la usaste** | <!-- Corrección de texto, búsqueda de ideas, generación de código, redacción… --> |
-| **En qué fase intervino** | <!-- Paso 1, paso 3, revisión final… --> |
+| **Herramienta utilizada** | Claude (Claude Code, modelo Sonnet 5) |
+| **Para qué la usaste** | Análisis y redacción de borradores: clasificar las frases del paso 1, revisar los componentes del requerimiento y formular las preguntas de inteligencia del paso 2, encadenar las fases del ciclo en el paso 3, redactar la nota para el comité y etiquetar hecho/inferencia/supuesto en el paso 4, y comparar conclusiones contra la cronología posterior en el paso 5. También hizo una búsqueda de fuentes públicas adicionales para el paso 3, ninguna de las cuales se terminó usando por no cumplir el filtro temporal. |
+| **En qué fase intervino** | En todos los pasos (1 a 5), como apoyo de estructuración, análisis y redacción; cada borrador se revisó antes de decidir si se adoptaba, se ajustaba o se descartaba. |
 
 ## Comprobación
 
