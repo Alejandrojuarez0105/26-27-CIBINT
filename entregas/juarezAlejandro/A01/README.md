@@ -164,12 +164,12 @@ La retroalimentación no solo corrige el contenido de lo que ya sabíamos, sino 
 | F09 | Wikipedia, "2026 OpenAI agent cyberattacks" | https://en.wikipedia.org/wiki/2026_OpenAI_agent_cyberattacks | 2026-09-17 |
 | F10 | Cybersecurity Dive, "Hundreds of agents went rogue in lead up to Hugging Face breach" | https://www.cybersecuritydive.com/news/hundreds-agents-rogue-lead-up-hugging-face-breach/828963/ | 2026-09-17 |
 
-> No se usaron F11 ni F12 del material dado. No se añadió ninguna fuente propia (F13+): las candidatas investigadas para el paso 3 no pasaron el filtro temporal (ver "[README](/investigaciónExtra/README.md)" dentro de la carpeta InvestigaciónExtra).
+> No se usaron F11 ni F12 del material dado. No se añadió ninguna fuente propia (F13+): las candidatas investigadas para el paso 3 no pasaron el filtro temporal (ver "[README](investigaciónExtra/README.md)" dentro de la carpeta investigaciónExtra).
 
 ## Decisiones y limitaciones
 
 - Los pasos 1 a 4 se resolvieron exclusivamente con `cronologia-inicial.csv` (C01–C14); `cronologia-posterior.csv` (C15–C25) se abrió únicamente para el paso 5, como exige el enunciado.
-- Para el paso 3 se investigaron fuentes públicas adicionales que pudieran aportar ideas para la fase de Obtención (ver [README](/investigaciónExtra/README.md)). Ninguna resultó válida por estar fechada el 20 de julio de 2026 o después, o por tener contenido actualizado con posterioridad a esa fecha (detalle en la sección "Investigación adicional" al final de este archivo). Por eso no se incorporó ninguna fuente F13+.
+- Para el paso 3 se investigaron fuentes públicas adicionales que pudieran aportar ideas para la fase de Obtención (ver [README](investigaciónExtra/README.md)). Ninguna resultó válida por estar fechada el 20 de julio de 2026 o después, o por tener contenido actualizado con posterioridad a esa fecha (detalle en la sección "Investigación adicional" al final de este archivo). Por eso no se incorporó ninguna fuente F13+.
 - Las tablas de la plantilla se mantuvieron con su estructura original (mismas filas y columnas); no se justificó añadir ninguna.
 - El nivel de confianza y las recomendaciones del paso 4 se apoyan únicamente en el campo `corroboracion` de cada hecho (quién lo afirma y con qué respaldo), evitando dar por hecho algo que solo una parte declara.
 
@@ -189,10 +189,10 @@ No se trabajó ningún aspecto con otra persona. Todo el análisis es individual
 
 ## Comprobación
 
-- [ ] He trabajado sobre una copia de la plantilla, dentro de `entregas/apellidoNombre/A01/`.
-- [ ] He resuelto los pasos 1 a 4 solo con la cronología inicial.
-- [ ] Cada afirmación lleva su identificador y he comprobado que dice lo que le atribuyo.
-- [ ] No he interactuado con ninguna infraestructura ni servicio del caso.
-- [ ] No incluyo exploits, credenciales, indicadores operativos ni datos personales.
-- [ ] He incluido el apartado de uso de inteligencia artificial con los tres puntos.
-- [ ] Solo he modificado `entregas/apellidoNombre/A01/`.
+- [x] He trabajado sobre una copia de la plantilla, dentro de `entregas/apellidoNombre/A01/`.
+- [x] He resuelto los pasos 1 a 4 solo con la cronología inicial.
+- [x] Cada afirmación lleva su identificador y he comprobado que dice lo que le atribuyo.
+- [x] No he interactuado con ninguna infraestructura ni servicio del caso.
+- [x] No incluyo exploits, credenciales, indicadores operativos ni datos personales.
+- [x] He incluido el apartado de uso de inteligencia artificial con los tres puntos.
+- [x] Solo he modificado `entregas/apellidoNombre/A01/`.
