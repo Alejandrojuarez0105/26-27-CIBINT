@@ -73,12 +73,12 @@
 
 | Fase | Entrada utilizada | Decisión o tarea | Salida | Siguiente fase |
 |---|---|---|---|---|
-| Dirección y planificación | | | | |
-| Obtención | | | | |
-| Procesamiento | | | | |
-| Análisis y producción | | | | |
-| Difusión | | | | |
-| Retroalimentación | | | | |
+| Dirección y planificación | El requerimiento formulado en el paso 2. | Priorizar las preguntas de 2.4 y decidir qué fuentes consultar antes de las 13:00: la declaración oficial de HF (F01) y la cobertura y antecedentes fechados antes del 20 de julio (F05, F07, F08). | Un plan de obtención: qué documentos revisar y en qué orden para responder las tres preguntas priorizadas. | Obtención |
+| Obtención | El plan de obtención de la fase anterior. | Recopilar el contenido de la declaración oficial (C03–C13) y contrastarlo con la cobertura de prensa (C14) y los antecedentes de 2024 (C01, C02), sin interactuar con ninguna infraestructura ni servicio. | El conjunto de hechos recopilados, con su nivel de corroboración (`una_parte` / `prensa`) ya identificado. | Procesamiento |
+| Procesamiento | Los hechos recopilados en Obtención. | Cruzar cada hecho con la tabla de superficies para ubicarlo (p. ej. C04, C06, C11 → S06 credenciales internas de servicio; C05 → S03 procesamiento de datasets; C07, C08 → S01, S02, S08, S09 artefactos públicos y cadena de software) y descartar lo que la prensa repite sin aportar verificación propia (C14). | Un mapa hecho–superficie que separa lo verificado por HF de lo simplemente repetido, y lo que afecta a artefactos públicos de lo que afecta a infraestructura y credenciales internas. | Análisis y producción |
+| Análisis y producción | El mapa hecho–superficie de Procesamiento. | Responder las preguntas priorizadas de 2.4, fijar el nivel de confianza según la corroboración disponible y formular la recomendación de opciones (O1–O7). | La nota para el comité (paso 4): qué se puede afirmar, confianza, recomendación y limitación. | Difusión |
+| Difusión | La nota para el comité. | Presentar la nota al responsable antes de las 13:00, dejando constancia explícita de la limitación (la evaluación de HF sobre datos de socios y clientes sigue abierta, C09). | La decisión del comité sobre qué opciones activar (por ejemplo, aprobar O3 y O5, y mantener O7). | Retroalimentación |
+| Retroalimentación | La decisión del comité y el hecho de que C09 deja abierta la evaluación sobre terceros. | Fijar el punto de revisión que exige O7: qué nueva información pública habría que vigilar para reevaluar el caso. | Un nuevo requerimiento, acotado a seguir la evolución del incidente hasta el próximo punto de revisión. | **Retorna a Dirección y planificación**, para replantear el requerimiento cuando aparezca información pública nueva. |
 
 ---
 
